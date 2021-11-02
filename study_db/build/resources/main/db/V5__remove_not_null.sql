@@ -1,0 +1,2 @@
+ALTER TABLE Lessons
+ ALTER COLUMN teacher_id DROP NOT NULL;

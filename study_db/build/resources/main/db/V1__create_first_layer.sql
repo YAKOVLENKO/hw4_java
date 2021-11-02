@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS Students
+(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR NOT NULL,
+    surname VARCHAR NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS Courses
+(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS Teachers
+(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR NOT NULL,
+    surname VARCHAR NOT NULL
+);
+
+
+
